@@ -1,0 +1,18 @@
+.dynalight{
+  font-family: "Dynalight", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-nav{
+    background-color: #f5e1c8;
+}
+
+.accordion{
+    --bs-accordion-btn-bg: #f5e1c8;
+    --bs-accordion-active-bg: #fbcb90;
+}
+
+.bg-insta{
+    background-color: rgb(233, 116, 184);
+}
