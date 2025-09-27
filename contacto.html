@@ -90,22 +90,24 @@
  <section class="bg-nav py-5 mt-4">
     <di class="container">
         <h2 class="text-center mb-3 display-5">Contactanos</h2>
-        <form class="mx-auto" style="max-width: 600px;">
+        <form action="https://formsubmit.co/cb284b935ecc8b61a4710580ec9efd09"  method="post" class="mx-auto" style="max-width: 600px;">
+          <input type="hidden" name="_cc" value="enloszapatosdemonica@gmail.com">
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre completo*</label>
-                <input type="text" class="form-control shadow-sm" id="nombre" placeholder=" Nombre(s) Ap.paterno Ap.materno" required>
+                <input type="text" class="form-control shadow-sm" id="nombre" name="nombre" placeholder=" Nombre(s) Ap.paterno Ap.materno" required>
             </div>
             <div class="mb-3">
                 <label for="correo" class="form-label">E-mail*</label>
-                <input type="email" class="form-control shadow-sm" id="correo" placeholder=" nombre@dominio.com" required>
+                <input type="email" class="form-control shadow-sm" id="correo" name="correo" placeholder=" nombre@dominio.com" required>
             </div>
             <div class="mb-4">
                 <label for="mensaje" class="form-label">Dudas o comentarios</label>
-                <textarea class="form-control shadow-sm" id="mensaje" rows="5" placeholder="Escribe tu duda o comentario"></textarea>
+                <textarea class="form-control shadow-sm" id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu duda o comentario"></textarea>
             </div>
             <div class="text-center">
             <button type="submit" class="btn btn-light btn-lg w-50 shadow">Enviar</button>
-            </div>
+            <input type="hidden" name="_next" value="https://enloszapatosdemonica.github.io/-/index.html">
+          </div>
         </form>
     </di>
 
